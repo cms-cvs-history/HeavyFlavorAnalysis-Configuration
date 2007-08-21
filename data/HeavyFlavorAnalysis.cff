@@ -1,0 +1,11 @@
+#
+# HeavyFlavorAnalysis standard sequences
+#
+
+include "HeavyFlavorAnalysis/Skimming/data/onia_Sequences.cff"
+include "HeavyFlavorAnalysis/Skimming/data/tauTo3MuSequences.cff"
+
+sequence heavyFlavorAnalysis = {
+  onia &
+  tauTo3Mu
+}

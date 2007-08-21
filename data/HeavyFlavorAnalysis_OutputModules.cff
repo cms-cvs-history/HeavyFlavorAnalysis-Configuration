@@ -1,0 +1,16 @@
+#
+# HeavyFlavorAnalysis output modules
+#
+include "HeavyFlavorAnalysis/Skimming/data/onia_OutputModules.cff"
+#include "HeavyFlavorAnalysis/Skimming/data/tauTo3MuOutputModule.cfi"
+
+sequence HeavyFlavorAnalysisOutput = {
+bToMuMuOutputModuleAODSIM &
+#tauTo3MuOutputModuleAODSIM &
+tauTo3MuOutputModule &
+jpsiToMuMuOutputModuleAODSIM &
+upsilonToMuMuOutputModuleAODSIM &
+bToMuMuOutputModuleRECOSIM &
+jpsiToMuMuOutputModuleRECOSIM &
+upsilonToMuMuOutputModuleRECOSIM &
+}
