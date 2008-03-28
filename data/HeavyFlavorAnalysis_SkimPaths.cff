@@ -1,7 +1,0 @@
-#
-# HeavyFlavorAnalysis skim paths
-#
-
-include "HeavyFlavorAnalysis/Skimming/data/onia_SkimPaths.cff"
-include "HeavyFlavorAnalysis/Skimming/data/tauTo3Mu_SkimPaths.cff"
-
